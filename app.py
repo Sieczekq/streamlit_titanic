@@ -39,7 +39,7 @@ def main():
         fare_slider = st.slider("Cena biletu", min_value=0, max_value=500, step=10)
 
  # Collect input data for prediction
-    data = [sex_radio,pclass_radio,embarked_radio,age_slider,sibsp_slider,parch_slider,fare_slider]
+        data = [pclass_radio, age_slider, sibsp_slider, parch_slider, fare_slider, embarked_radio, sex_radio]
     
     data = [data]
 
